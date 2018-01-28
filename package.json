@@ -1,0 +1,15 @@
+{
+  "name": "d3networkgraph",
+  "version": "1.0.0",
+  "description": "show how to make network graph using d3.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seohyun0120",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.12.2",
+    "express": "^4.16.2"
+  }
+}
