@@ -272,7 +272,6 @@
 - [d3 force-directed graph](https://bl.ocks.org/mbostock/4062045)
 - [MARVEL](http://marvel.com/)
 <br>
-
 ### _I choose to run towards my problems, and not away from them. Because that’s what– Because that's what heroes do._
 ![thor](https://user-images.githubusercontent.com/35247295/37244223-fbd6fcb8-24c8-11e8-9e49-5d5c8f5eaaa9.jpg)
 
