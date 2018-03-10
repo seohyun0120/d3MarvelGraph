@@ -1,9 +1,7 @@
 # Marvel Universe d3 NetworkGraph
 
 **using d3 library & javascript**
-
-
-
+<br>
 1. 프로젝트 폴더를 만들어주세요.
 
 2. 터미널에서 프로젝트 폴더를 열어주세요.
@@ -11,7 +9,6 @@
 3. $ **npm init**
 
    + 현재 폴더에 package.json 파일 생성
-   + ​
 
    $ **npm install express**
 
@@ -24,11 +21,7 @@
 
    + d3 라이브러리를 설치해주세요
 
-   <br>
-
-   <br>
-
-   ### d3 그래프를 만드는데에는 크게 4가지의 파일이 필요합니다.
+   #### d3 그래프를 만드는데에는 크게 4가지의 파일이 필요합니다.
 
    + #### server.js
 
