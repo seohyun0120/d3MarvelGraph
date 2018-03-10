@@ -274,7 +274,6 @@
 <br>
 
 ### _I choose to run towards my problems, and not away from them. Because that’s what– Because that's what heroes do._
-<br>
 ![thor](https://user-images.githubusercontent.com/35247295/37244223-fbd6fcb8-24c8-11e8-9e49-5d5c8f5eaaa9.jpg)
 
-ps. 위 프로젝트는 순전히 **마블**을 좋아하고, 마블 영웅중 **토르**를 가장 좋아해서 만들어보게된 미니프로젝트입니다.
+ps. 위 프로젝트는 순전히 **마블**을 좋아하고, 특히 **토르**를 가장 좋아해서 만들어보게된 미니프로젝트입니다.
