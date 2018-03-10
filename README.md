@@ -55,22 +55,22 @@
 6. **index.html**을 작성해주세요.
    #### Web/index.html
    ~~~html
-      <!DOCTYPE html>
-      <html>
-      <head>
-          <meta charset="UTF-8"/>
-          <title> MARVEL </title>
-          <link rel="stylesheet" href="lib/style.css"/>
-      </head>
-      <body>
-          <p> MARVEL STUDIO </p>
-          <p> Avengers Infinity War </p>
-          <script src="http://d3js.org/d3.v3.min.js"></script>
-          <script>
-            //d3 code 추가
-          </script>
-      </body>
-      </html>
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <meta charset="UTF-8"/>
+       <title> MARVEL </title>
+       <link rel="stylesheet" href="lib/style.css"/>
+   </head>
+   <body>
+       <p> MARVEL STUDIO </p>
+       <p> Avengers Infinity War </p>
+       <script src="http://d3js.org/d3.v3.min.js"></script>
+       <script>
+         //d3 code 추가
+       </script>
+   </body>
+   </html>
    ~~~
 
    기본적인 틀을 먼저 만들어주세요.<br>
@@ -78,10 +78,9 @@
    <br>
    <br>
 7. **d3 라이브러리**를 사용해봅시다.
-
    기존에 작성하던 index.html 파일에 계속 작성해주세요.
+   <br>
    #### Web/index.html
-
    ~~~html
    <script>
        var width = 960,
@@ -104,16 +103,17 @@
              .nodes(json.nodes)
              .links(json.links)
              .start();
-         }
+         });
    </script>
    ~~~
 
    + **d3.layout.force()** 함수를 통해 그래프가 공중에 떠있는 정도(gravity), 점과 점사이를 이어주는 선 길이(distance), 점과 점들이 떨어져있는 정도(charge)를 설정해주세요.
    + 그리고, **graphFile.json**에서 **nodes**와 **links**를 불러옵니다.
    <br>
+   
    그렇다면 **graphFile.json** 을 확인해봅시다.
    <br>
-   #### lib/graphFile.json
+   #### lib/graphFile.json
    ~~~json
    {
      "nodes":[
@@ -136,18 +136,24 @@
    }
    ~~~
 
-   현재 완성된 코드는 너무 길어서 일부분만 들고와서 확인해봅시다. **json**에는 **nodes**와 **links** 두 개의 값이 존재합니다.  **nodes**에는 **name**과 **group**의 정보가 담겨있습니다. **name**에는 캐릭터의 이름을,  **group**에는 연관관계를 숫자로 적어줍니다.
-
+   -  현재 완성된 코드는 너무 길어서 일부분만 들고와서 확인해봅시다. <br>
+      **json**에는 **nodes**와 **links** 두 개의 값이 존재합니다.<br>
+      
+      **nodes**에는 **name**과 **group**의 정보가 담겨있습니다. <br>
+      
+      **name**에는 캐릭터의 이름을,  **group**에는 연관관계를 숫자로 적어줍니다.
+   
+   -  **links**에는 **source**, **target**, **weight** 세 개의 값이 존재합니다. <br>
+      점과 점 사이를 이어주는 그래프를 만들기 위해서는 각 점이 무엇인지를 알려주는 변수가 필요합니다. <br>
+      이때 사용되는게 바로 **source**와 **target**입니다. <br>
+      
+      **nodes**배열에 있는 순서대로 원하는 두 개의 점을 이어줍시다. <br>
+      **weight**는 두 점을 이어주는 선의 굵기를 뜻합니다. 
    <br>
-   **links**에는 **source**, **target**, **weight** 세 개의 값이 존재합니다. 점과 점 사이를 이어주는 그래프를 만들기 위해서는 각 점이 무엇인지를 알려주는 변수가 필요합니다. 이때 사용되는게 바로 **source**와 **target**입니다. **nodes**배열에 있는 순서대로 원하는 두 개의 점을 이어줍시다. **weight**는 두 점을 이어주는 선의 굵기를 뜻합니다. 
-
-   <br>
-   ___
-
    이렇게하면 **graphFile.json**은 모두 완성되었습니다. 다시 **index.html**파일을 확인해봅시다.
 
    #### Web/index.html
-
+   <br>
    위에서 작성하던 부분에 이어서 작성해주세요.
 
    ~~~html
@@ -199,11 +205,9 @@
    + 노드를 움직일때마다 위치가 변할 수 있도록 해주세요
 
    <br>
-
    <br>
 
 8. 노드와 선을 꾸며주세요.
-
    #### src/style.css
 
    ~~~css
@@ -231,6 +235,7 @@
 9. 실행해봅시다.
 
    $  **nodemon src/server.js**
+   <br>
    ![1](https://user-images.githubusercontent.com/35247295/37243854-975e95b6-24c3-11e8-8b0f-d6e1ebf53d46.gif)
 
 
