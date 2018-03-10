@@ -28,11 +28,9 @@
 
    <br>
 
-   ___
-
    ### d3 그래프를 만드는데에는 크게 4가지의 파일이 필요합니다.
 
-   + ####  server.js
+   + #### server.js
 
    + #### index.html
 
@@ -40,11 +38,9 @@
 
    + #### style.css
 
-     #### 
-
 5. **server.js**를 작성해주세요.
 
-   ####src/server.js 
+   #### src/server.js 
 
    ~~~javascript
    var express = require('express');
