@@ -7,10 +7,8 @@
   </head>
 
   <body>
-    <!-- <script src="lib/d3.min.js"></script> -->
     <p> MARVEL STUDIO </p>
-    <p> Avengers </p>
-    <!-- <script src="http://d3js.org/d3.v2.min.js?2.9.3"></script> -->
+    <p> Avengers Infinity War </p>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="lib/graph.js"></script>
     <script>
@@ -35,20 +33,15 @@
           .links(json.links)
           .start();
 
-        json.links.forEach(function (d){
-          d.group = Math.floor(Math.random() * 6)
-        });
-
         var link = svg.selectAll(".link")
             .data(json.links)
-          .enter().append("line")
+            .enter().append("line")
             .attr("class", "link")
             .style("stroke-width", function(d) { return Math.sqrt(d.weight); })
-            // .style("stroke", function(d) { return color(d.group); });
-
+           
         var node = svg.selectAll(".node")
             .data(json.nodes)
-          .enter().append("g")
+            .enter().append("g")
             .attr("class", "node")
             .style("fill", function(d) { return color(d.group); })
             .call(force.drag);
