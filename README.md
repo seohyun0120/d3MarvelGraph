@@ -267,6 +267,8 @@
 9. 실행해봅시다.
 
    $  **nodemon src/server.js**
+   ![1](https://user-images.githubusercontent.com/35247295/37243854-975e95b6-24c3-11e8-8b0f-d6e1ebf53d46.gif)
+
 
 
 
