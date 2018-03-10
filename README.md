@@ -1,4 +1,4 @@
-# Marvel Universe d3 NetworkGraph
+# Marvel Universe d3 NetworkGraph (3/11 Update)
 
 **using d3 library & javascript**
 <br>
@@ -205,8 +205,6 @@
    + 노드를 움직일때마다 위치가 변할 수 있도록 해주세요
 
    <br>
-   <br>
-
 8. 노드와 선을 꾸며주세요.
    #### src/style.css
 
@@ -271,7 +269,7 @@
 - [simple d3 network graph](http://bl.ocks.org/jose187/4733747) 
 - [d3 force-directed graph](https://bl.ocks.org/mbostock/4062045)
 - [MARVEL](http://marvel.com/)
-<br>
+
 ### _I choose to run towards my problems, and not away from them. Because that’s what– Because that's what heroes do._
 ![thor](https://user-images.githubusercontent.com/35247295/37244223-fbd6fcb8-24c8-11e8-9e49-5d5c8f5eaaa9.jpg)
 
