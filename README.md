@@ -274,5 +274,5 @@
 
 ps.
 이 프로젝트는 순전히 마블을 좋아하고, 마블 영웅중 토르를 가장 좋아해서 만들어보게된 미니프로젝트입니다.
-
-For EVERY minute, the future is becoming the PAST - THOR-
+_For EVERY minute, the future is becoming the PAST - THOR-
+![thor_ragnarok_2017_5k-wide](https://user-images.githubusercontent.com/35247295/37244040-55d154be-24c6-11e8-9b71-c67bd0287991.jpg)
