@@ -268,8 +268,11 @@
 참고문헌
 
 - [d3.js](https://d3js.org/)
-
-
 - [simple d3 network graph](http://bl.ocks.org/jose187/4733747) 
 - [d3 force-directed graph](https://bl.ocks.org/mbostock/4062045)
 - [MARVEL](http://marvel.com/)
+
+ps.
+이 프로젝트는 순전히 마블을 좋아하고, 마블 영웅중 토르를 가장 좋아해서 만들어보게된 미니프로젝트입니다.
+
+For EVERY minute, the future is becoming the PAST - THOR-
