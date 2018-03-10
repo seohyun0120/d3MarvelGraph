@@ -275,5 +275,5 @@
 ps.
 이 프로젝트는 순전히 마블을 좋아하고, 마블 영웅중 토르를 가장 좋아해서 만들어보게된 미니프로젝트입니다.
 <br>
-### _For EVERY minute, the future is becoming the PAST - THOR-_
+### _I choose to run towards my problems, and not away from them. Because that’s what– Because that's what heroes do._
 ![thor](https://user-images.githubusercontent.com/35247295/37244078-e9081a6a-24c6-11e8-8954-b9edb3d03c5a.jpg)
